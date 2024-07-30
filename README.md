@@ -29,7 +29,7 @@ Add or modify the following lines to set a specific resolution (e.g., 1920x1080)
 ```
 hdmi_force_hotplug=1
 hdmi_group=2
-hdmi_mode=82
+hdmi_mode=16
 ```
 Save the file and reboot your Raspberry Pi:
 ```
