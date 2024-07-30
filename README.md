@@ -1,4 +1,8 @@
-# VNC shows " annot currently show the desktop "
+
+
+# Problems:
+
+## VNC shows "Cannot currently show the desktop".
 
 To solve this problem do these steps: <br>
 
@@ -31,5 +35,7 @@ Save the file and reboot your Raspberry Pi:
 ```
 sudo reboot
 ```
+
+---------------------------------------------------------
 
 
