@@ -52,9 +52,35 @@ preferences -> Screen Configuration -> right-click on the hdmi-1 image -> choose
 ## The screen has a black boundries:
 
 
-go to the raspberrypi icon in the top left side<br>:
+- go to the raspberrypi icon in the top left side:<br>
 ```
 Raspberrypi configuration -> Display -> overscan -> Disable
+```
+
+- Add the follow to
+```
+sudo nano /boot/config.txt
+```
+```
+# Framebuffer settings
+framebuffer_width=1920
+framebuffer_height=1080
+```
+- Check the following:<br>
+```
+# Enable HDMI
+hdmi_force_hotplug=1
+
+# Set resolution to 1080p 60Hz in DMT group
+hdmi_group=2
+hdmi_mode=82
+
+# Disable overscan
+disable_overscan=1
+
+# Framebuffer settings
+framebuffer_width=1920
+framebuffer_height=1080
 ```
 
 ---------------------------------------------------------
