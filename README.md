@@ -42,6 +42,21 @@ Save the file and reboot your Raspberry Pi:
 sudo reboot
 ```
 
+## The screen is too large:
+
+Use the previous steps + go to the raspberrypi icon in the top left side<br>
+```
+preferences -> Screen Configuration -> right-click on the hdmi-1 image -> choose 1920 X 1080
+```
+
+## The screen has a black boundries:
+
+
+go to the raspberrypi icon in the top left side<br>:
+```
+Raspberrypi configuration -> Display -> overscan -> Disable
+```
+
 ---------------------------------------------------------
 
 
