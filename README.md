@@ -31,11 +31,13 @@ hdmi_force_hotplug=1
 hdmi_group=2
 hdmi_mode=82
 ```
+
+```
 hdmi_mode=16: 1024x768 at 60Hz
 hdmi_mode=28: 1280x800 at 60Hz
 hdmi_mode=35: 1280x1024 at 60Hz
 hdmi_mode=82: 1920x1080 at 60Hz
-
+```
 
 Save the file and reboot your Raspberry Pi:
 ```
